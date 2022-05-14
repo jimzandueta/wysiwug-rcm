@@ -1,29 +1,45 @@
-# wysiwug-rcm
+# Developer Test #2 - WYSIWYG Text Editor
 
-## Project setup
-```
-npm install
-```
+https://jimzandueta.github.io/wysiwug-rcm/
+ 
+---
 
-### Compiles and hot-reloads for development
+## Project Installation
+1. Clone the project repository.
+```sh
+$ git clone https://github.com/jimzandueta/wysiwug-rcm.git
+$ cd wysiwug-rcm
 ```
-npm run serve
+2. Install the project dependencies.
+```sh
+$ npm install
 ```
+3. Run the application
+```sh
+$ npm run serve
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your end-to-end tests
-```
-npm run test:e2e
-```
-
-### Lints and fixes files
-```
-npm run lint
+# Navigate to http://localhost:8080/ using your favorite browser.
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Project Dependencies
+
+```json
+{
+    "dependencies": {
+    "buefy": "^0.9.20",
+    "core-js": "^3.8.3",
+    "register-service-worker": "^1.7.2",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2"
+}
+```
+
+## Resources:
+1. **Range and Selection** - http://www.javascriptkit.com/javatutors/copytoclipboard.shtml
+2. **Document execCommand** - https://developer.mozilla.org/en-US/docs/Web/API/Document/execCommand
+
+## Improvements:
+- Toggle button display when formatting is enabled (ie. bold, italics, etc)
+- Change font on selected text only
+- Design improvements. Make it more responsive to better work in mobile.
